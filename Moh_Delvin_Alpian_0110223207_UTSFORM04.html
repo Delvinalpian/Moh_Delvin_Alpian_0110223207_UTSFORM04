@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS2</title>
+    <style>
+        h1{
+            text-align: center;
+            color: rgb(255, 34, 0);
+        }
+        fieldset{
+            margin-right: 65;
+            border-color:blueviolet;
+            box-shadow: 2px 2px 4px black;
+            background-color: linear-gradient(blue purple,aqua);
+        }
+        ul{
+            margin:0;
+            padding:0;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+            list-style-type:none;
+            display: block;
+            color: white;
+            padding:10px 10px;
+            text-decoration: none;
+            margin-left: 250px;
+        }
+    </style>
+</head>
+<body>
+    <style>background-color: linearGradient (blue,purple,aqua)</style>
+    <H1 style="text-align: center;">Sistem Informasi Seminar Tugas Akhir - SISTA</H1>
+    <ul class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Jadwal</a></li>
+        <li><a href="#">Detail Jadwal</a></li>
+        <li>Daftar Peserta</li> 
+      </ul>
+      
+      
+    <h4>Mahasiswa Seminar: Diego Armando (0102002)</h4>
+    <h4>Judul: Rancang Bangun Aplikasi Seminar Tugas Akhir Berbasis Web Menggunakan MVC Framework</h4>
+    <h4>Waktu: Senin, 4 Januari 2021, 10:00</h4>
+    <fieldset>
+        <legend>Form Peserta Seminar</legend>
+        <table>
+            <tr>
+                <td>Nim:</td>
+                <td>
+                    <input type="number" name="Nim">
+                </td>
+            </tr>
+            <tr>
+                <td>Nama:</td>
+                <td>
+                    <input type="text" name="Nama">
+                </td>
+            </tr>
+            <tr>
+                <td>Prodi</td>
+                <td>
+                   <select name="Prodi">
+                    <option value="">Teknik Informasi</option>
+                    <option value="">Sistem Oprasi</option>
+                    <option value="">Bisnis Digital</option>
+                   </select>
+                </td>
+            </tr>
+            <tr> 
+                <td>Program</td>
+                <td>
+                    <input type="radio" name="status" id="D3">D3
+                    <input type="radio" name="status" id="S1 Reguler">S1 Reguler
+                    <input type="radio" name="status" id="S1 Fast Track">S1 Fast Track
+                    <input type="radio" name="status" id="S2">S2
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" name="proses" value="daftar" style="background-color:red; color:whitesmoke;box-shadow: 4px">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>
